@@ -1,0 +1,35 @@
+{
+  "name": "minari",
+  "version": "2.0.1",
+  "description": "a discord bot that A discord bot that uses ai to have a normal conversation with the user on vc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruriko123/Minari-chan.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "minari",
+    "voice",
+    "chat",
+    "response"
+  ],
+  "author": "ruriko123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruriko123/Minari-chan/issues"
+  },
+  "homepage": "https://github.com/ruriko123/Minari-chan#readme",
+  "dependencies": {
+    "@types/got": "^9.6.12",
+    "discord.js": "^12.5.3",
+    "got": "^11.8.2",
+    "microsoft-cognitiveservices-speech-sdk": "^1.18.0",
+    "node-gtts": "^2.0.2",
+    "wav-converter": "^1.0.0"
+  }
+}
