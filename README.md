@@ -1,5 +1,5 @@
 # Minari-chan
-A discord bot that uses ai to have a normal conversation with the user on vc
+A discord bot that uses ai to have a speech to speech conversation with you.
 
 
 
@@ -37,7 +37,7 @@ The bot joins the voice channel after you use the ***${prefix}speak*** command.
 
 
 # Things to keep in mind:
-* The bot requires you to stop talking for a split second once you complete your sentence so this bot will not work correctly if your mic is buggy and makes a sound throughout the conversation (to tackle this, once you complete your sentence you can use the discord mute button to mute yourself for a second)
+* The bot requires you to stop talking for a split second once you complete your sentence so this bot will not work correctly if your mic is buggy and makes a sound throughout the conversation (to tackle this, once you complete your sentence you can use the discord mute button to mute yourself for a second).
 * Your voice will need to be well audible so that Microsoft text to speech API can process it accurately.
 * After you complete your sentence kindly hold off on speaking again until the bot responds to you (;-; or the bot might break).
-* Use this bot with only one person at a time. (only with one person in a voice channel along with bot, so keep the user limit of the voice channel to 2)
+* Use this bot with only one person at a time. (only with one person in a voice channel along with bot, so keep the user limit of the voice channel to 2).
