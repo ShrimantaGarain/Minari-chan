@@ -179,36 +179,10 @@ client.on('message', function (message) { return __awaiter(void 0, void 0, void 
                                             case 1:
                                                 _a.sent();
                                                 fromFile();
-                                                /*      await message.channel.send("Processing audio.....", {         //to use the below method of send the audio file to discord first and then to the servie api --> use this piece of code
-                                                        files: [
-                                                          `./components/speaking_audio/${message.author.id}.wav`
-                                                     
-                                                     
-                                                        ]
-                                                      })
-                                                 
-                                                     
-                                                      .then(msg => {
-                                                      console.log(msg.attachments.array()[0])
-                                                               }).catch(console.error);             // if you use another api to get text from speech you can send the audio to discord as attachment and take the url from this and send it to the api for processing
-                                                               
-                                                      */
+                                             
                                                 return [4 /*yield*/, message.channel.send("Sending response.....")];
                                             case 2:
-                                                /*      await message.channel.send("Processing audio.....", {         //to use the below method of send the audio file to discord first and then to the servie api --> use this piece of code
-                                                        files: [
-                                                          `./components/speaking_audio/${message.author.id}.wav`
-                                                     
-                                                     
-                                                        ]
-                                                      })
-                                                 
-                                                     
-                                                      .then(msg => {
-                                                      console.log(msg.attachments.array()[0])
-                                                               }).catch(console.error);             // if you use another api to get text from speech you can send the audio to discord as attachment and take the url from this and send it to the api for processing
-                                                               
-                                                      */
+                                              
                                                 _a.sent();
                                                 return [2 /*return*/];
                                         }
